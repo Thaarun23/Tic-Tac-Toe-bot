@@ -37,4 +37,4 @@ The code consists of a board object which generates the grid which is to be play
 
 Demonstration:
 
-![video](https://youtu.be/Xt5A0OZN-qw)
+![video(https://youtu.be/Xt5A0OZN-qw)]((https://youtu.be/Xt5A0OZN-qw))
