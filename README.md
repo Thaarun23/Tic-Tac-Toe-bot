@@ -33,3 +33,8 @@ the Cobot is controlled using the pymycobot package , a suction pump is attached
 2.4 Cobot and Engine Integration
 
 The code consists of a board object which generates the grid which is to be played on and 2 players assigned to X or O. the player turns and the win checking condition are placed in an if else statement that switches between the player turns if there is no winner on that turn, the entire tic tac toe playing program is placed in a for loop that loops 9 times . using opencv the camera function is placed inside the if else statement at the else part where the camera waits for the user input to detect the blocks existing in one of the grids, once a block is recognized the user presses O to confirm their move and the board updates the move in the grid, the board then uses this information to make the X robot decide its next move, the robot also disables the use of that grid to prevent it from detecting that grid again. On the X robots turn the program simply makes a choice and according to the choice arrays values the robot selects which set of blocks to run and runs the code block that places the blocks on the playable area after which the code updates with the move you have selected the, robot technically checks if there are any winning moves before deciding to make a choice. Once the robot or the player makes a winning move the robot or the player wins and the code is stopped. 
+
+
+Demonstration:
+
+![video](https://youtu.be/Xt5A0OZN-qw)
